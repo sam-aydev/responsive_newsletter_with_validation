@@ -4,21 +4,20 @@ import Image from "./Reusable/Image.jsx"
 export default function BodyNewsLetter({children}){
 
     return(
-      <div>     
-        <div className='sm:bg-slate-900 sm:bg-repeat sm:h-screen '>
-          <div className='lg:pt-6  sm:pt-24'>
+       
+        <div className='sm:bg-slate-900 sm:bg-repeat sm:h-screen'>
+          <div className=' sm:flex sm:justify-center sm:items-center sm:h-screen '>
   
-          {/* lg:p-10 lg:h-screen lg:h-screen */}
-            <div className='sm:px-2 xl:w-2/3 sm:py-3 sm:mb-20  sm:rounded-3xl sm:bg-white sm:flex-row-reverse sm:w-2/3 sm:mx-auto sm:flex sm:justify-center'>
+    
+            <div className=' sm:w-1/2 sm:h-2/3 lg:h-3/4 sm:flex sm:justify-center sm:items-center   sm:flex-row-reverse  sm:rounded-3xl sm:bg-white  '>
               
-              <div>
+
+              <div className="sm:px-3 ">
                 <Image/>
               </div>
-        
-        
-              <div className='space-y-6 lg:mt-8 xl:space-y-6 sm:mt-1 sm:space-y-2 mt-8 px-8  xl:mt-10'>
-                <h1 className='text-4xl  font-bold sm:text-xl lg:text-2xl xl:text-4xl md:text-xl'>Stay Updated!</h1>
-                <p className='text-[16px] font-medium md:text-[17px] sm:text-[12px] xl:text-xl  '>Join 60,000+ product managers 
+              <div className='space-y-6  lg:mt-5 xl:space-y-6 sm:mt-1 sm:space-y-2 mt-8 px-8  xl:mt-9'>
+                <h1 className='text-4xl  font-bold sm:text-[15px] lg:text-xl xl:text-3xl md:text-[16px]'>Stay Updated!</h1>
+                <p className='text-[16px] font-medium md:text-[17px] lg:text-[13px] sm:text-[9px] xl:text-[15px]  '>Join 60,000+ product managers 
                   receiving monthly updates on: 
                 </p>
                 <BodyDetail/>
@@ -31,6 +30,6 @@ export default function BodyNewsLetter({children}){
   
   
       
-      </div>
+     
     )
   }

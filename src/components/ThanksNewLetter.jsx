@@ -4,6 +4,7 @@ import Button from './Reusable/Button.jsx'
 
 
 export default function ThanksNewsLetter({email}){
+  document.title = 'Thank You'
     return(
       <div>
         <div className='sm:bg-slate-900 sm:justify-center sm:h-screen sm:flex'>
