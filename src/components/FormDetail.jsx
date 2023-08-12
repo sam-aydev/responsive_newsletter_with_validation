@@ -2,7 +2,7 @@
 
 export default function FormDetail({ handleSubmit,setError, email,  error, setEmail}){
     return(
-      <div className='px-8 xl:px-3 lg:py-4 sm:p-5      mt-16'>
+      <div className='px-8 xl:px-3 xl:pt-0 lg:py-4 sm:p-5      mt-16'>
         <form onSubmit={handleSubmit}>
           <div className='space-y-3 lg:space-y-1 sm:space-y-0 md:space-y-1 xl:space-y-1 lg:relative'>
             <label className='block font-semibold sm:text-[10px] lg:text-[13px] sm:font-bold text-[17px] xl:text-[17px]'>Email address</label>
