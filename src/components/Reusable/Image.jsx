@@ -4,9 +4,15 @@ import desktopImg from '../../assets/illustration-sign-up-desktop.svg'
 export default function Image(){
     return(
       <div>
+
+      <div>
         <img src={mobileImg} className='w-full sm:hidden' />
-        <img src={desktopImg} className=' sm:flex sm:h-[460px] md:h-[490px] lg:h-[590px] xl:h-[470px] hidden' />
-        
       </div>
+      <div>
+
+        <img src={desktopImg} className='sm:flex lg:h-[410px] md:h-[290px]  sm:h-[270px] sm:w-full hidden' />
+      </div>
+      </div>
+        
     )
 }
